@@ -15,4 +15,4 @@ docker-compose up
 
 ## References
 
-- [onzu/docker-guacamole](https://github.com/reisbel/guacamole-docker-compose)
+- [reisbel/guacamole-docker-compose](https://github.com/reisbel/guacamole-docker-compose)
