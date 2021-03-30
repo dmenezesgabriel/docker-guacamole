@@ -1,19 +1,11 @@
 version: "3"
-
 services:
   guacamole:
-    image: oznu/guacamole:armhf
-    container_name: guacamole
+    build: .
     volumes:
-      - ./postgres_data:/config
+      - ./config_data:/config
     ports:
       - 8080:8080
-    restart: unless-stopped
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "1k"
-        max-file: "3"
 
 volumes:
   postgres:
