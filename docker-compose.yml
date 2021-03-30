@@ -1,7 +1,9 @@
 version: "3"
 services:
   guacamole:
-    build: .
+    build:
+      context: .
+      dockerfile: ${DOCKER_FILE}
     volumes:
       - ./config_data:/config
     ports:
