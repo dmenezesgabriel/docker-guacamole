@@ -15,4 +15,5 @@ docker-compose up
 
 ## References
 
-- [reisbel/guacamole-docker-compose](https://github.com/reisbel/guacamole-docker-compose)
+- [onzu/docker-guacaomle](https://github.com/oznu/docker-guacamole)
+- [Youtube - Graphic interface configuration](https://www.youtube.com/watch?v=Lym670IaFGk)
